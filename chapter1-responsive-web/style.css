@@ -1,0 +1,106 @@
+:root{
+    --primaryColor: #F1F3FF;
+    --secondaryColor: #fff;
+    --successColor: #5CB85F;
+    --blueColor: #0D28A6;
+
+    --mainFont: 'Helvetica'
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+.heading{
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    font-family: var(--mainFont);
+}
+.subheading{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--mainFont);
+}
+.title{
+    font-size: 24px;
+    font-family: var(--mainFont);
+}
+.subtitle{
+    font-size: 16px;
+    font-family: var(--mainFont);
+}
+.navbar{
+    background-color: var(--primaryColor) ;
+    font: var(--mainFont);
+}
+.nav-brand{
+    font-weight: 900 !important;
+}
+
+/* CSS Our Services */
+.our-services{
+    margin-top: 100px;
+}
+
+/* CSS Why Us */
+.why-us{
+    margin-top: 100px; 
+}
+
+/* CSS Testimonial */
+#testimonial{
+    margin-top: 100px;
+}
+.card-testimoni{
+    max-width: 619px;
+    background-color: #F1F3FF;
+}
+
+/* CSS Banner */
+.banner{
+    margin-top: 100px;
+    background-color: var(--blueColor);
+    color: #fff;
+    border-radius: 15px;
+    padding: 64px 15% 64px 15%;
+}
+.banner-text{
+    margin-top: 16px;
+    margin-bottom: 52px;
+}
+
+/* CSS FAQ */
+.faq{
+    margin-top: 100px;
+}
+
+/* CSS footer */
+.footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 576px) { 
+    .text-why-us {
+        text-align: center;
+    }
+    .text-faq {
+        text-align: center;
+    }
+    .text-sewa{
+        line-height: 1.2cm;
+    }
+    .text-testi{
+        text-align: center;
+    }
+    .card-testimoni{
+        max-width: 360px; 
+        background-color: #F1F3FF; 
+    }
+    .rate{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
